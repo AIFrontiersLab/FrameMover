@@ -1,0 +1,40 @@
+{
+  "productName": "FrameMover",
+  "version": "1.0.0",
+  "identifier": "com.framemover.app",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:5173",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "FrameMover",
+        "width": 900,
+        "height": 700,
+        "minWidth": 600,
+        "minHeight": 500
+      }
+    ]
+  },
+  "bundle": {
+    "active": true,
+    "icon": [
+
+    ],
+    "resources": [
+
+    ],
+    "externalBin": [
+
+    ],
+    "copyright": "",
+    "category": "Utility",
+    "shortDescription": "Move images by filename suffix with deduplication",
+    "longDescription": "Finds image files whose base filename ends with given suffix numbers and moves them from Source to Destination, preserving folder structure and avoiding duplicates."
+  },
+  "plugins": {
+  }
+}

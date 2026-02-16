@@ -1,0 +1,11 @@
+{
+  "identifier": "default",
+  "description": "Main window capability for FrameMover",
+  "windows": ["main"],
+  "permissions": [
+    "core:event:default",
+    "core:window:default",
+    "core:app:default",
+    "dialog:allow-open"
+  ]
+}

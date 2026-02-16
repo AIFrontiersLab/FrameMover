@@ -1,0 +1,27 @@
+[package]
+name = "photo-suffix-mover"
+version = "1.0.0"
+description = "Move image files by filename suffix with deduplication"
+authors = ["PhotoSuffixMover"]
+license = "MIT"
+repository = ""
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-dialog = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["fs", "io-util", "rt-multi-thread", "sync"] }
+walkdir = "2"
+sha2 = "0.10"
+anyhow = "1"
+thiserror = "1"
+clap = { version = "4", features = ["derive"] }
+
+[features]
+default = ["custom-protocol"]
+custom-protocol = ["tauri/custom-protocol"]
