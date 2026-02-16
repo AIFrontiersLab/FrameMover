@@ -12,9 +12,9 @@ A desktop app that finds image files whose **filename ends with** the numbers yo
 
 The app lets you pick a **source** and **destination** folder, enter suffix numbers (comma, space, or newline separated), and run. Progress and a log show what’s happening.
 
-| Completed run | With verbose log |
-|--------------|------------------|
-| ![FrameMover – completed run](docs/screenshot-completed.png) | ![FrameMover – verbose log](docs/screenshot-verbose.png) |
+| Completed run |
+|--------------|
+| ![FrameMover – completed run](docs/screenshot-completed.png) |
 
 You’ll see:
 
